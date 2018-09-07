@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+
+{{ partial "nav" . }}
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
+		{{ .Content }}
+		<h4 class="f4 b lh-title mb2 primary">Contact Person</h4>
+		<p>
+			<ul>
+				<li>{{ .Params.contact_person.name }}</li>
+				<li><a href="mailto:{{ .Params.contact_person.name}}"> {{ .Params.contact_person.email }}</a></li>
+				<li>{{ .Params.contact_person.phone }}</li>
+			</ul>
+		</p>
+		{{ partial "contact-form" . }}
+	</div>
+</div>
+
+{{ partial "footer" . }}
