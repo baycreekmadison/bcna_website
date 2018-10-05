@@ -6,16 +6,20 @@ values:
     imageUrl: /img/kfowler_fall.jpg
     text: >
       Bay Creek, a neighborhood nestled between Monona Bay and Wingra Creek located on the near south side of Madison, Wisconsin. The name Bay Creek was chosen to reflect the fact that the borders of this neighborhood are almost entirely water. We got new water in our midst some years ago; the city pool opened in 2006.
+    buttonText: Read More
+    buttonLink: /post/history
   - heading: Contacts
     imageUrl: /img/kfowler_sunrise3.jpg
     text: >
       Whether your looking to contact a community rep or to stay connected with the neighborhood, check out our contacts page for the latest.
+    buttonText: Read More
+    buttonLink: /post/history      
   - heading: By Laws
     imageUrl: /img/kfowler_sunrise6.jpg
     text: >
-      Not sure what to put here.
+      TODO: Not sure what to put here.
   - heading: Bay Creek Neighborhood Association
     imageUrl: /img/kfowler_crane.jpg
     text: >
-      Not sure what to put here either.
+      TODO: Not sure what to put here either.
 ---

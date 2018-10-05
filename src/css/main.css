@@ -17,7 +17,8 @@
  *    3. Variables
  *       - Media Queries
  *       - Colors
- *    4. Debugging
+ *    4. Custom override css
+ *    5. Debugging
  *       - Debug all
  *       - Debug children
  *
@@ -78,6 +79,9 @@
 @import './imports/_colors';
 @import './imports/_media-queries';
 @import './imports/_variables';
+
+/* Custom overrides */
+@import './imports/custom';
 
 /* Debugging */
 @import './imports/_debug-children';
