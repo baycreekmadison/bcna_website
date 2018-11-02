@@ -25,6 +25,10 @@ p {
   max-width: 32rem;
 }
 
+.image-credit {
+  font-size: var(--font-size-s);
+}
+
 strong {
   font-weight: var(--bold-font-weight);
 }

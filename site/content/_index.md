@@ -1,7 +1,7 @@
 ---
 title: Bay Creek Neighborhood
 subtitle: Madison, WI
-image: /img/baycreek_satellite_jumbotron.png
+image: /img/bay_creek_blur4.jpg
 blurb:
     heading: Why Kaldi?
     text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."

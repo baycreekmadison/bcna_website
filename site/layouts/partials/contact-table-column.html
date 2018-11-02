@@ -1,0 +1,19 @@
+<div class="ph2">
+	<!-- Title -->
+	<h3 class="b f5 grey-3 tc lh-title mb3">{{.title}}</h3>
+
+	<!-- Description -->
+	<p class="b">{{.description}}</p>
+
+	<!-- Features -->
+	<ul>
+		{{ $contactDetailsCount := len .contactInfos }}
+		{{ range $index, $contactInfo := .contactInfos }}
+		<li>
+			<p class="{{ if ne (add 1 $index) $contactDetailsCount }}pb2 mb2 divider-grey{{ end }}">{{ $contactInfo }}</p>
+		</li>
+		{{ end }}
+		<!--{{ if .image }}<li><img src="{{ .image }}" alt="{{ .Title }}" /></li>{{ end }}-->
+	</ul>
+
+</div>
