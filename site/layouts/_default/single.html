@@ -1,5 +1,15 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
-  {{ .Content }}
+{{$img := .Params.image }}
+{{ partial "jumbotron" (dict "imageUrl" (default "/img/baycreek_satellite_jumbotron.png" .Params.image ) "title" .Title) }}
+
+
+<div class="mw6 center ph3 pv4">
+
+    <div class="cms mw-100">
+
+      {{ .Content }}
+    </div>
+  </div>
+
 {{ partial "footer" . }}

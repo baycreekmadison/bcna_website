@@ -1,9 +1,7 @@
 ---
-title: Bay Creek's Story
-date: 2018-01-04T15:04:10.000Z
+title: "History: Bay Creek's Story"
 description: >-
   What once was a marshland has transformed into a vibrant community. Learn more about how Bay Creek was born.
-image: /img/kfowler_sunrise4.jpg
 ---
 
 European-born settlers first arrived to Madison in 1837. Within twenty years, Madison was incorporated into a city, with an imposing capitol building, flour mills and sawmills, four-story office blocks, frame worker's cottages, sandstone mansions and 12,000 residents.
@@ -16,7 +14,9 @@ Following the Civil War, the defunct sanitarium was converted at a great expense
 
 Construction elsewhere in the Bay Creek neighborhood was sporadic, and accommodated households with wage earners who walked to work each day on the railroad bridges across Monona Bay.
 
-In the late 1880s, Madison's population rapidly increased. This was partly due to the growth of the university and partly due to the development of several large manufacturing interests, such as Gisholt. The swell spilled over into Bay Creek. In 1889, T.C. Richmond, the owner of "Belle Colline", platted some of the land west of his house as "South Madison." In the same year "Grand View" was platted, and George Lawrence platted a small section of lakefront property as the "Monona Subdivision." Several other parcels of land were also divided, including Pleasant View (1890), Oaklawn Addition (1890), Maple Court (1896), Woodlawn (1898), and Lakeside (1901). (See Map 1).
+In the late 1880s, Madison's population rapidly increased. This was partly due to the growth of the university and partly due to the development of several large manufacturing interests, such as Gisholt. The swell spilled over into Bay Creek. In 1889, T.C. Richmond, the owner of "Belle Colline", platted some of the land west of his house as "South Madison." In the same year "Grand View" was platted, and George Lawrence platted a small section of lakefront property as the "Monona Subdivision." Several other parcels of land were also divided, including Pleasant View (1890), Oaklawn Addition (1890), Maple Court (1896), Woodlawn (1898), and Lakeside (1901).
+
+<img src='/img/bay_creek_blur10.jpg' />
 
 By 1902, the 400 residents of these plats thought of themselves as members of a separate community, "South Madison." They truly were a diverse group, with people of German, Scandinavian, Russian, Irish, Bohemian, English, American and Dutch ancestry. Laborers lived side by side with building contractors and wealthy lawyers. These residents built a church at 610 West Olin Avenue (now Second Baptist) that was shared by many denominations. A small, frame schoolhouse was built on Potter Street (just to the southwest of where Franklin School is now). The Chicago and Northwestern had just completed a wooden railroad depot just north of Lakeside Street and a streetcar line would soon be built along Lakeside Street connecting South Madison to the downtown. New store buildings sprang up at 335 and 402 West Lakeside Street and at 423 West Olin Avenue. In 1900, the Badger Shoe Factory, a major industry that had moved from Milwaukee to South Madison, opened at 1335 Gilson Street. The factory moved to larger quarters in 1910, and the old plant on Gilson was demolished a couple of years ago.
 
@@ -27,5 +27,3 @@ As more and more people moved to Bay Creek, some of the marshy land became fille
 In 1923 South Madison was annexed by the City of Madison, sparking more improvements in this thriving community which now numbered around 1,400. A new schoolhouse was built (the main section of Franklin School); streets were paved; sewer and water were installed. Many new houses were built and new shops were added to the small commercial area on Lakeside Street near the railroad depot. The new shops included another grocery store, a tailor shop, a shoe store, a pool hall, a barbershop and a bank. The Seventh Day Adventists built a church and school at 1124 Colby Street in 1924.
 
 During the 1930s there was less home building but more public improvements. The old mansion on the hill was razed and the hill itself leveled by the City to provide fill for the arboretum, Wingra Creek Parkway, Franklin Field and the new extension of West Olin Avenue to the fairgrounds. Deadman's Ridge was also leveled to help fill in the marsh west of Fish Hatchery Road. Following World War II, houses and apartment buildings quickly filled this pleasant residential neighborhood overlooking Wingra Creek.
-
-This article has been taken from the Bay Creek Neighborhood Plan

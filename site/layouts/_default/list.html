@@ -1,9 +1,12 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ partial "jumbotron" (dict "imageUrl" (default "/img/baycreek_satellite_jumbotron.png" .Params.image ) "title" .Title "subtitle" .Params.subtitle) }}
 
 <div class="mw7 center">
+  <div class="center ph3 pv3">
+      {{.Content}}
+  </div>
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range .Data.Pages }}
           <div class="w-50-ns ph1-ns flex">

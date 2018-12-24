@@ -1,4 +1,44 @@
 {{ partial "head" . }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" (print (.Date.Format "Jan 2006") " Bay Creek Bulletin" ) "subtitle" .Params.subtitle) }}
+{{ partial "nav" . }}
+<div class="bg-off-white pv2">
+    <div class="ph3 mw6 center">
+        <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+            <div class="ph1-ns w-100-ns flex">
+                <div class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
+                    <div class="w-70 fl" >
+                        <p class="mid-gray lh-title mb2">{{ .Date.Format "January 2, 2006" }}</p>
+                        <p class="mb0">{{ .Description }}</p>
+                        <br />
+                        <a href="{{ .Params.Filename }}" target="_blank"> <p class="link dib black mb0">Download PDF →</p></a>
+                    </div>
+                    <div class="w-30 fl v-mid center" >
+                        <a href="{{ .Params.Filename}}" target="_blank">
+                            <img src="/img/pdf-icon.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="mw6 center ph3 pv2">
+
+    <div class="cms mw-100">
+
+      {{ .Content }}
+    </div>
+  </div>
+
+{{ partial "footer" . }}
+<!--
+
+
+
+{{ partial "head" . }}
 {{ partial "nav" . }}
   <div class="mw6 center ph3 pv4">
     <h2 class="f2 lh-title b mb3">Bay Creek Bulletin {{.Date.Format "Jan 2006" }}</h2>
@@ -17,4 +57,4 @@
       {{ .Content }}
     </div>
   </div>
-{{ partial "footer" . }}
+-->
