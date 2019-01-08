@@ -96,6 +96,55 @@ arearep_contact2:
         - (608) 520-7173
         - jbeeman53715 at gmail dot com
       image: /img/
+standing_committees:
+  heading: Standing Committees
+  contactDetails:
+    - title: Newsletter Committee
+      description: Managing Editor
+      contactInfos: 
+        - Sara Richards
+        - (608) 255-5023
+        - leftpaintedtoenail at hotmail dot com
+    - title: Newsletter Committee
+      description: Advertising
+      contactInfos: 
+        - Sara Richards
+        - (608) 255-5023
+        - leftpaintedtoenail at hotmail dot com
+    - title: Newsletter Committee
+      description: Distribution
+      contactInfos:
+        - Kirk Elliot
+        - (608) 255-5646
+        - kirk_elliott at hotmail dot com
+    - title: Welcoming and Recruitment Committee
+      contactInfos:
+        - Doug Noot
+        - (608) 663-8323
+        - welcome.baycreek at gmail dot com
+standing_committees2:  
+  contactDetails:
+    - title: Neighborhood Image & Signs Committee
+      contactInfos:
+        - OPEN
+    - title: Planning & Economic Development
+      contactInfos:
+        - Alex Elias
+        - (973) 803-9716
+        - novoalexandria at gmail dot com
+    - title: Web Committee
+      contactInfos:
+        - Jim Winkle
+        - (608) 259-1812
+        - jimwink-madison at yahoo dot com
+    - title: Traffic Committee
+      contactInfos:
+        - OPEN
+    - title: SMPC Representative
+      contactInfos:
+        - Lisie Kitchel
+        - (608) 220-5180
+        
 ---
 
 
