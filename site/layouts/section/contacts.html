@@ -10,28 +10,11 @@
 {{ partial "contact-table" .Params.arearep_contact2 }}
 {{ partial "contact-table" .Params.standing_committees }}
 {{ partial "contact-table" .Params.standing_committees2 }}
-
-{{ with .Params.main }}
-<div class="mw7 center">
-  <div class="mw6 ph3 mb3">
-    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
-  </div>
-</div>
-
-
-
-<!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
-
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
-</div>
-
-<!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
+{{ partial "contact-table" .Params.standing_committees3 }}
+{{ partial "contact-table" .Params.government_representatives }}
+{{ partial "contact-table" .Params.government_representatives2 }}
+{{ partial "contact-table" .Params.government_representatives3 }}
+{{ partial "contact-table" .Params.government_representatives4 }}
+{{ partial "contact-table" .Params.other }}
 
 {{ partial "footer" . }}
