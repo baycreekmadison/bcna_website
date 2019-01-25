@@ -6,7 +6,7 @@
         <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
             <div class="ph1-ns w-50-ns flex">
                 <div class="pa3 br1 mb2 db  w-100">
-                    <p class="mb0">{{ .Content}}</p>
+                    <p class="mb0">{{ .Params.intro | markdownify }}</p>
                 </div>
             </div>
             {{range first 1 (where .Data.Pages "Type" "newsletter") }}

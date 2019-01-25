@@ -1,16 +1,14 @@
 <div class="bg-off-white pt2">
 	<div class="ph3 mw7 center">
-
-        <h2 class="f2 b lh-title mb3">Upcoming events</h1>
-        
-
+		<h2 class="f2 b lh-title mb3">Upcoming events</h1>
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3" style="padding-left:10px;" scrolling="no">
-<!-- calendar goes here -->
-<div class="googleCalendar">
-    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=a0t0g217k8fac3v3eef33lqr9g%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FChicago" style="border-width:0" width="350" height="400" frameborder="0" scrolling="no"></iframe>
-  </div>
+			<!-- calendar goes here -->
+			<div class="googleCalendar">
+				<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=a0t0g217k8fac3v3eef33lqr9g%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FChicago" style="border-width:0" width="350" height="400" frameborder="0" scrolling="no"></iframe>
+			</div>
 		</div>
-
-
+		<div class="pa3 br1 mb2 db  w-100">
+			<p class="mb0">{{ .Params.calendarhelptext | markdownify }}</p>
+		</div>
 	</div>
 </div>
