@@ -4,3 +4,6 @@ title = "Homepage"
 
 [permalinks]
   newsletter = "/newsletter/:year-:month/"
+
+[taxonomies]
+  tag = "tags"
