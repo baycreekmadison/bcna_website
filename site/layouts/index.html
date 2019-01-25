@@ -1,12 +1,12 @@
 {{ partial "head" . }}
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 {{ partial "nav" . }}
-<div class="bg-off-white pv2">
+<div class="bg-off-white pt2">
     <div class="ph3 mw7 center">
         <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
             <div class="ph1-ns w-50-ns flex">
                 <div class="pa3 br1 mb2 db  w-100">
-                    <p class="mb0">{{ .Params.blurb}}</p>
+                    <p class="mb0">{{ .Content}}</p>
                 </div>
             </div>
             {{range first 1 (where .Data.Pages "Type" "newsletter") }}
