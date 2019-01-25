@@ -1,0 +1,51 @@
+{{ partial "head" . }}
+{{ partial "nav" . }}
+
+{{ partial "jumbotron" (dict "imageUrl" (default "/img/baycreek_satellite_jumbotron.png" .Params.image ) "title" .Title "subtitle" .Params.subtitle) }}
+
+<div class="mw7 center">
+  <div class="center ph3 pv3">
+      {{.Content}}
+  </div>
+</div>
+
+<div class="bg-off-white pv2">
+        <div class="ph3 mw7 center">
+    
+            <h2 class="f2 b lh-title mb3">Plans </h2>
+    
+            <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+                    {{range (where .Site.Pages "Type" "in" (slice "planning")) }}
+                        <div class="ph1-ns w-50-ns flex">
+                            {{ .Render "li" }}
+                        </div>
+                {{ end }}
+            </div>
+    
+            <div class="tc">
+                <a href="/tags/planning" class="btn raise">Read more</a>
+            </div>
+    
+        </div>
+</div>
+
+<div class="bg-off-white pv2">
+    <div class="ph3 mw7 center">
+
+        <h2 class="f2 b lh-title mb3">Latest planning & development stories</h2>
+
+        <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+                {{ range first 4 .Site.Taxonomies.tags.planning }}
+                    <div class="ph1-ns w-50-ns flex">
+                        {{ .Render "li" }}
+                    </div>
+            {{ end }}
+        </div>
+
+        <div class="tc">
+            <a href="/tags/planning" class="btn raise">Read more</a>
+        </div>
+
+    </div>
+</div>
+{{ partial "footer" . }}

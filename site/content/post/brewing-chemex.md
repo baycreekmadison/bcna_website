@@ -5,6 +5,8 @@ description: >-
   This is Abby's first post. Abby lives in Bay Creek, thus this post is
   especially relevant to this blog. 
 image: /36251038_10155392887686496_5430514682936950784_n.jpg
+tags:
+- planning
 ---
 **Attention all Bay Creek residents:**
 
