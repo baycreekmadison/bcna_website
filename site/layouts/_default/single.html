@@ -1,7 +1,7 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
 {{$img := .Params.image }}
-{{ partial "jumbotron" (dict "imageUrl" (default "/img/baycreek_satellite_jumbotron.png" .Params.image ) "title" .Title) }}
+{{ partial "jumbotron" (dict "imageUrl" (default "/img/baycreek_satellite_jumbotron.png" .Params.image ) "title" .Title "subtitle" .Description) }}
 
 
 <div class="mw6 center ph3 pv4">
